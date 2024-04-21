@@ -1,10 +1,10 @@
-se.yrgo.libraryapp.controllers.ClassificationController$Module
+se.yrgo.libraryapp.controllers.BookController$Module
+se.yrgo.libraryapp.controllers.admin.UserController$Module
 se.yrgo.libraryapp.controllers.LogoutController$Module
 se.yrgo.libraryapp.controllers.LoginController$Module
-se.yrgo.libraryapp.controllers.BookController$Module
-se.yrgo.libraryapp.controllers.user.LoanController$Module
+se.yrgo.libraryapp.controllers.ClassificationController$Module
 se.yrgo.libraryapp.controllers.admin.BookController$Module
-se.yrgo.libraryapp.controllers.admin.LoanController$Module
-se.yrgo.libraryapp.controllers.admin.UserController$Module
+se.yrgo.libraryapp.controllers.user.LoanController$Module
 se.yrgo.libraryapp.controllers.RegisterUserController$Module
+se.yrgo.libraryapp.controllers.admin.LoanController$Module
 

@@ -14,7 +14,6 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class RealNameTest {
@@ -26,13 +25,13 @@ public class RealNameTest {
     }
 
     @ParameterizedTest
-    @ValueSource(strings = {"John Doe", "Jane Smith", "Alice-Marie Johnson"})
+    @ValueSource(strings = { "John Doe", "Jane Smith", "Alice-Marie Johnson" })
     void validRealNames(String name) {
         assertTrue(RealName.validate(name));
     }
 
     @ParameterizedTest
-    @ValueSource(strings = {"123", "John123", "Mary_White", "Alice@Marie", "Robert;DropTable"})
+    @ValueSource(strings = { "123", "John123", "Mary_White", "Alice@Marie", "Robert;DropTable" })
     void invalidRealNames(String name) {
         assertFalse(RealName.validate(name));
     }
@@ -52,7 +51,7 @@ public class RealNameTest {
     }
 
     @ParameterizedTest
-    @ValueSource(strings = {"a"})
+    @ValueSource(strings = { "a" })
     void singleCharacterRealName(String name) {
         assertFalse(RealName.validate(name));
     }

@@ -26,6 +26,8 @@ public class App extends Jooby {
     install(new FlywayModule());
     install(new JacksonModule());
 
+    install(new GuiceModule(new AppModule()));
+
     decorator(new AccessLogHandler());
     decorator(new CorsHandler());
 

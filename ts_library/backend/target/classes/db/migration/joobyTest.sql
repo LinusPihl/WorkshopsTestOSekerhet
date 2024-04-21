@@ -7,3 +7,7 @@ joobyTest.* TO 'jooby';
 INSERT INTO user VALUES (DEFAULT, 'admin',
 '$argon2i$v=19$m=16,t=2,p=1$MTIzNDU2Nzg5MDEyMzQ1NjA$LmFqTZeUWwqsnbZCS2E8XQ',
 'admin');
+
+INSERT INTO user (user, realname, password_hash) 
+VALUES ('LinusPihl', 'Linus Pihl', '$argon2i$v=19$m=16,t=2,p=1$MTIzNDU2Nzg5MDEyMzQ1NjA$LmFqTZeUWwqsnbZCS2E8XQ');
+

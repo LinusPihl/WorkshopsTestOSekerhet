@@ -1,7 +1,10 @@
+se\yrgo\libraryapp\UserServiceTest.class
 se\yrgo\libraryapp\validators\ValueSource.class
 se\yrgo\libraryapp\validators\ParameterizedTest.class
 se\yrgo\libraryapp\IntegrationTest.class
+se\yrgo\libraryapp\dao\UserDaoTest.class
 se\yrgo\libraryapp\validators\RealNameTest.class
+se\yrgo\libraryapp\dao\UserDaoIntegrationTest.class
 se\yrgo\libraryapp\validators\UsernameTest.class
 se\yrgo\libraryapp\validators\NullSource.class
 se\yrgo\libraryapp\validators\EmptySource.class

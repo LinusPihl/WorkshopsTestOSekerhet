@@ -1,5 +1,6 @@
 se\yrgo\libraryapp\controllers\RegisterUserController.class
 se\yrgo\libraryapp\controllers\admin\BookController$Module.class
+se\yrgo\libraryapp\AppModule.class
 se\yrgo\libraryapp\entities\forms\RegisterUserData.class
 se\yrgo\libraryapp\controllers\admin\UserController.class
 se\yrgo\libraryapp\entities\forms\LoanData.class
@@ -24,6 +25,7 @@ se\yrgo\libraryapp\auth\DbCookieClient.class
 se\yrgo\libraryapp\dao\SessionDao.class
 se\yrgo\libraryapp\validators\Username.class
 se\yrgo\libraryapp\controllers\admin\BookController.class
+se\yrgo\libraryapp\UserService.class
 se\yrgo\libraryapp\controllers\ClassificationController.class
 se\yrgo\libraryapp\dao\ClassificationDao.class
 se\yrgo\libraryapp\entities\DdsClassification.class

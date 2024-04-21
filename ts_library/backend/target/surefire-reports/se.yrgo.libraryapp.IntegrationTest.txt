@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: se.yrgo.libraryapp.IntegrationTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.575 s - in se.yrgo.libraryapp.IntegrationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.011 s - in se.yrgo.libraryapp.IntegrationTest
